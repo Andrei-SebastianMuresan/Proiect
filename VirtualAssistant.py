@@ -6,9 +6,6 @@ import webbrowser
 import sys
 import pywhatkit
 import wikipedia
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 from plyer import notification
 from parsedatetime import Calendar
 import time
