@@ -92,8 +92,8 @@ class VoiceAssistant:
             self.sebi_speak("Sorry, I couldn't understand the time. Please try again.")
             return
 
-    # Schedule the reminder notification
-    schedule_notification("Reminder", f"Time to {reminder_details}", time_struct)
+        # Schedule the reminder notification
+        schedule_notification("Reminder", f"Time to {reminder_details}", time_struct)
 
 
 def set_reminder(self):
@@ -172,3 +172,7 @@ if __name__ == "__main__":
   
     # Start the Tkinter event loop
     app.mainloop()
+
+
+
+    aaaaaaa
